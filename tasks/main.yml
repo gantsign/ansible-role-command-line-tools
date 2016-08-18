@@ -1,5 +1,6 @@
 ---
 - name: install common command line tools
+  become: yes
   apt:
     name: "{{ item }}"
     state: present
