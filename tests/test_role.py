@@ -1,5 +1,10 @@
 import pytest
 
+from testinfra.utils.ansible_runner import AnsibleRunner
+
+testinfra_hosts = AnsibleRunner('.molecule/ansible_inventory').get_hosts('all')
+
+
 @pytest.mark.parametrize('command,arg', [
     ('curl', '--version'),
     ('dos2unix', '--version'),
