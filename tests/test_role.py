@@ -12,7 +12,8 @@ testinfra_hosts = AnsibleRunner('.molecule/ansible_inventory').get_hosts('all')
     ('grc', '--version'),
     ('htop', '--version'),
     ('mtr', '--version'),
-    ('multitail', '-V'),
+    # Can test multitail due to: Error opening terminal: unknown.
+    # ('multitail', '-V'),
     ('ag', '--version'),
     ('tree', '--version'),
     ('wget', '--version')
