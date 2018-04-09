@@ -13,6 +13,7 @@ testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
     ('glances', '--version'),
     ('grc', '--version'),
     ('htop', '--version'),
+    ('http', '--version'),
     ('mtr', '--version'),
     # Can test multitail due to: Error opening terminal: unknown.
     # ('multitail', '-V'),
