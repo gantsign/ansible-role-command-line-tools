@@ -19,7 +19,7 @@ Example Playbook
 ```yaml
 - hosts: servers
   roles:
-     - { role: gantsign.command-line-tools }
+     - role: gantsign.command-line-tools
 ```
 
 More Roles From GantSign
