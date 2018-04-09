@@ -9,6 +9,8 @@ Role to install my favourite command line tools.
 Requirements
 ------------
 
+* Ansible >= 2.3
+
 * Ubuntu
 
 Example Playbook
