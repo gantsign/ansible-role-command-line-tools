@@ -9,7 +9,7 @@ Role to install my favourite command line tools.
 Requirements
 ------------
 
-* Ansible >= 2.3
+* Ansible >= 2.4
 
 * Ubuntu
 
