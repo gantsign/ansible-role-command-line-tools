@@ -11,7 +11,12 @@ Requirements
 
 * Ansible >= 2.4
 
-* Ubuntu
+* Linux Distribution
+
+    * Ubuntu
+
+        * Trusty (14.04)
+        * Xenial (16.04)
 
 Example Playbook
 ----------------
