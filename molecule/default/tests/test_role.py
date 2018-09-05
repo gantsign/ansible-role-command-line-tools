@@ -15,12 +15,12 @@ testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
     ('htop', '--version'),
     ('http', '--version'),
     ('mtr', '--version'),
-    # Can test multitail due to: Error opening terminal: unknown.
+    # Can't test multitail due to: Error opening terminal: unknown.
     # ('multitail', '-V'),
     ('ag', '--version'),
     ('tree', '--version'),
     ('wget', '--version')
 ])
-def test_command_line_tools(Command, command, arg):
-    cmd = Command(command + ' ' + arg)
+def test_command_line_tools(host, command, arg):
+    cmd = host.run(command + ' ' + arg)
     assert cmd.rc == 0
