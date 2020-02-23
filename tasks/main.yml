@@ -6,6 +6,7 @@
       - curl
       - dos2unix
       - glances
+      - graphviz
       - grc
       - htop
       - httpie
