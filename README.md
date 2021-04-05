@@ -1,7 +1,7 @@
 Ansible Role: Command Line Tools
 ================================
 
-[![Build Status](https://travis-ci.com/gantsign/ansible-role-command-line-tools.svg?branch=master)](https://travis-ci.com/gantsign/ansible-role-command-line-tools)
+[![Tests](https://github.com/gantsign/ansible-role-command-line-tools/workflows/Tests/badge.svg)](https://github.com/gantsign/ansible-role-command-line-tools/actions?query=workflow%3ATests)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gantsign/ansible-role-command-line-tools/master/LICENSE)
 
 Role to install my favourite command line tools.
