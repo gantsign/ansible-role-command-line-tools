@@ -13,6 +13,7 @@
       - jq
       - mtr
       - multitail
+      - neofetch
       - shellcheck
       - silversearcher-ag
       - tree

@@ -11,6 +11,7 @@ import pytest
     ('mtr', '--version'),
     # Can't test multitail due to: Error opening terminal: unknown.
     # ('multitail', '-V'),
+    ('neofetch', ''),
     ('ag', '--version'),
     ('tree', '--version'),
     ('wget', '--version')
