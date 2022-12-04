@@ -3,19 +3,33 @@
   become: yes
   apt:
     name:
+      - bat
+      - btop
       - curl
       - dos2unix
+      - fd-find
+      - fzf
+      - git-absorb
+      - git-extras
       - glances
       - graphviz
       - grc
+      - hexyl
       - htop
       - httpie
+      - hyperfine
       - jq
+      - lnav
       - mtr
       - multitail
       - neofetch
+      - ripgrep
       - shellcheck
+      - shfmt
       - silversearcher-ag
+      - ssh-tools
       - tree
+      - vim-airline
       - wget
+      - zoxide
     state: present
