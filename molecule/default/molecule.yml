@@ -13,9 +13,7 @@ lint: |
 
 platforms:
   - name: ansible-role-command-line-tools-ubuntu-min
-    image: ubuntu:18.04
-  - name: ansible-role-command-line-tools-ubuntu-max
-    image: ubuntu:20.04
+    image: ubuntu:22.04
 
 provisioner:
   name: ansible
